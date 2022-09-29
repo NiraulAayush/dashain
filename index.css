@@ -4,10 +4,13 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+.main h2{
+    color: white;
+}
 .center{
     box-sizing: border-box;
     background-color: yellowgreen;
@@ -43,8 +46,9 @@
     transition-timing-function: linear;
     animation: mymove 4s infinite;
 }
-@media only screen and (max-width: 333px){
+@media only screen and (max-width: 333px ){
     .center {
       display: none;
     }
+    
   }
